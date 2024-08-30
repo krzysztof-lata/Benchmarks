@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToArray", "ToArray\ToArray.csproj", "{AF0302BC-8A19-45E8-BB5E-C34E35880B3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructAllocation", "StructAllocation\StructAllocation.csproj", "{B0D9F0BA-43CF-4D0A-BECC-ADE22E66C38A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhereNotNull", "WhereNotNull\WhereNotNull.csproj", "{7FD9EE96-2C67-4DE2-B06F-069249080321}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{AF0302BC-8A19-45E8-BB5E-C34E35880B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF0302BC-8A19-45E8-BB5E-C34E35880B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF0302BC-8A19-45E8-BB5E-C34E35880B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D9F0BA-43CF-4D0A-BECC-ADE22E66C38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D9F0BA-43CF-4D0A-BECC-ADE22E66C38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D9F0BA-43CF-4D0A-BECC-ADE22E66C38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D9F0BA-43CF-4D0A-BECC-ADE22E66C38A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD9EE96-2C67-4DE2-B06F-069249080321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD9EE96-2C67-4DE2-B06F-069249080321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD9EE96-2C67-4DE2-B06F-069249080321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD9EE96-2C67-4DE2-B06F-069249080321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
