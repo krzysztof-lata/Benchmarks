@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructAllocation", "StructA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhereNotNull", "WhereNotNull\WhereNotNull.csproj", "{7FD9EE96-2C67-4DE2-B06F-069249080321}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Closure", "Closure\Closure.csproj", "{AC8AEE8E-7815-4C6A-AC5E-923CF3AE3994}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{7FD9EE96-2C67-4DE2-B06F-069249080321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FD9EE96-2C67-4DE2-B06F-069249080321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FD9EE96-2C67-4DE2-B06F-069249080321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8AEE8E-7815-4C6A-AC5E-923CF3AE3994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8AEE8E-7815-4C6A-AC5E-923CF3AE3994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8AEE8E-7815-4C6A-AC5E-923CF3AE3994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8AEE8E-7815-4C6A-AC5E-923CF3AE3994}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
