@@ -17,6 +17,10 @@ public class Benchmark
     private IEnumerable<int> _listSelect;
     private IEnumerable<int> _enumerateArraySelect;
     
+    private IEnumerable<int> _arraySelectSelect;
+    private IEnumerable<int> _listSelectSelect;
+    private IEnumerable<int> _enumerateArraySelectSelect;
+    
     private IEnumerable<int> _arrayWhere;
     private IEnumerable<int> _listWhere;
     private IEnumerable<int> _enumerateArrayWhere;
@@ -31,6 +35,10 @@ public class Benchmark
         _arraySelect = _array.Select(x => x + 1);
         _listSelect = _list.Select(x => x + 1);
         _enumerateArraySelect = EnumerateArray(_array).Select(x => x + 1);
+
+        _arraySelectSelect = _array.Select(x => x + 1).Select(x => x);
+        _listSelectSelect = _list.Select(x => x + 1).Select(x => x);
+        _enumerateArraySelectSelect = EnumerateArray(_array).Select(x => x + 1).Select(x => x);
         
         _arrayWhere = _array.Where(x => x > 0);
         _listWhere = _list.Where(x => x > 0);
@@ -71,6 +79,24 @@ public class Benchmark
     public int[] EnumerateArraySelectToArray()
     {
         return _enumerateArraySelect.ToArray();
+    }
+    
+    [Benchmark]
+    public int[] ArraySelectSelectToArray()
+    {
+        return _arraySelectSelect.ToArray();
+    }
+    
+    [Benchmark]
+    public int[] ListSelectSelectToArray()
+    {
+        return _listSelectSelect.ToArray();
+    }
+    
+    [Benchmark]
+    public int[] EnumerateArraySelectSelectToArray()
+    {
+        return _enumerateArraySelectSelect.ToArray();
     }
     
     [Benchmark]
