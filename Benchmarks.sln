@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheKey", "CacheKey\CacheK
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{263B1A47-F8ED-4B26-9138-0B9CDA96279F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrozenSet", "FrozenSet\FrozenSet.csproj", "{D221D7A3-3572-4B6C-A38A-C3ABB203CE95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{263B1A47-F8ED-4B26-9138-0B9CDA96279F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{263B1A47-F8ED-4B26-9138-0B9CDA96279F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{263B1A47-F8ED-4B26-9138-0B9CDA96279F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D221D7A3-3572-4B6C-A38A-C3ABB203CE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D221D7A3-3572-4B6C-A38A-C3ABB203CE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D221D7A3-3572-4B6C-A38A-C3ABB203CE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D221D7A3-3572-4B6C-A38A-C3ABB203CE95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
